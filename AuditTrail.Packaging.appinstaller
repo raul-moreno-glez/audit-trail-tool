@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://github.com/raul-moreno-glez/audit-trail-tool/AuditTrail.Packaging.appinstaller"
-	Version="2.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="2.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="b4e37f44-072c-47eb-9531-9332ec30a1b4"
 		Version="2.0.1.0"
