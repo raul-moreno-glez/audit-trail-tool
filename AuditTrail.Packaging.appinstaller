@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://github.com/raul-moreno-glez/audit-trail-tool/AuditTrail.Packaging.appinstaller"
+	Version="2.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="b4e37f44-072c-47eb-9531-9332ec30a1b4"
+		Version="2.0.1.0"
+		Publisher="CN=Raul Moreno"
+		Uri="https://github.com/raul-moreno-glez/audit-trail-tool/AuditTrail.Packaging_2.0.1.0_Test/AuditTrail.Packaging_2.0.1.0_AnyCPU.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
