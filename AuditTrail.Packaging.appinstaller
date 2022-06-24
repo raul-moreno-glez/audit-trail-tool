@@ -9,8 +9,6 @@
 		Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.0.3.0_Test/AuditTrail.Packaging_2.0.3.0_AnyCPU.msixbundle" />
 	<UpdateSettings>
 		<OnLaunch
-			HoursBetweenUpdateChecks="0"
-			ShowPrompt="true"
-			UpdateBlocksActivation="true" />
+			HoursBetweenUpdateChecks="0" />
 	</UpdateSettings>
 </AppInstaller>
