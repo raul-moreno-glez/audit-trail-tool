@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging.appinstaller"
-	Version="2.0.4.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
+	Version="2.0.5.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="b4e37f44-072c-47eb-9531-9332ec30a1b4"
-		Version="2.0.4.0"
+		Version="2.0.5.0"
 		Publisher="CN=Raul Moreno"
-		Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.0.4.0_Test/AuditTrail.Packaging_2.0.4.0_AnyCPU.msixbundle" />
+		Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.0.5.0_Test/AuditTrail.Packaging_2.0.5.0_AnyCPU.msixbundle" />
 	<UpdateSettings>
 		<OnLaunch
-			HoursBetweenUpdateChecks="0" />
+			HoursBetweenUpdateChecks="0"
+			ShowPrompt="true" />
 	</UpdateSettings>
 </AppInstaller>
