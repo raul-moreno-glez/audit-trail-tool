@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging.appinstaller"
-	Version="2.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
+	Version="2.2.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
 	<MainBundle
 		Name="b4e37f44-072c-47eb-9531-9332ec30a1b4"
-		Version="2.0.0.0"
+		Version="2.2.1.0"
 		Publisher="CN=Raul Moreno"
-		Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.0.0.0_Test/AuditTrail.Packaging_2.0.0.0_AnyCPU.msixbundle" />
+		Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.2.1.0_Test/AuditTrail.Packaging_2.2.1.0_x86_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.2.1.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.appx"
+			Version="14.0.33728.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="https://raul-moreno-glez.github.io/audit-trail-tool/AuditTrail.Packaging_2.2.1.0_Test/Dependencies/x86/Microsoft.VCLibs.x86.14.00.Desktop.appx"
+			Version="14.0.33728.0" />
+	</Dependencies>
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0"
